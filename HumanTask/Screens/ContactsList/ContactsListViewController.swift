@@ -63,9 +63,6 @@ class ContactsListViewController: UIViewController, UITableViewDelegate {
         blurView.translatesAutoresizingMaskIntoConstraints = false
         blurView.blurRadius = 3
         blurView.opaqueEnabled = true
-//        if store.isSubmissionClosed {
-//            setBlurView(hostingController: hostingController)
-//        }
         self.blurView = blurView
 
         // tableview

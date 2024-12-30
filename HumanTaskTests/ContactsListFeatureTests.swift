@@ -113,41 +113,4 @@ final class ContactsListFeatureTests: XCTestCase {
         }
         XCTAssert(store.state.snapshot.itemIdentifiers.isEmpty)
     }
-    
-    // MARK: - UI Snapshots
-
-//    @MainActor
-//    func testContactsList() async throws {
-//        let navigationController = UINavigationController(
-//            rootViewController: ContactsListViewController(
-//                store: Store(
-//                    initialState: ContactsListFeature.State(),
-//                    reducer: {
-//                        ContactsListFeature()
-//                    },
-//                    withDependencies: { dependencies in
-//                        dependencies.contactsAPI.getContacts = {
-//                            [
-//                                Contact(id: 1, name: nil),
-//                                Contact(id: 2, name: "John"),
-//                                Contact(id: 3, name: "Kirill"),
-//                                Contact(id: 4, name: "Alexander", username: "Alex"),
-//                            ]
-//                        }
-//                        
-//                        let contactsFetcher = dependencies.contactsFetcher
-//                        Task {
-//                            await contactsFetcher.reload()
-//                        }
-//                    }
-//                )
-//            )
-//        )
-//        navigationController.loadViewIfNeeded()
-//        navigationController.view.setNeedsLayout()
-//        navigationController.view.layoutIfNeeded()
-//
-//        await XCTWaiter().fulfillment(of: [XCTestExpectation()], timeout: 3)
-//        assertSnapshot(of: navigationController, as: .image(on: .iPhone13ProMax(.portrait), precision: 3, perceptualPrecision: 3))
-//    }
 }
