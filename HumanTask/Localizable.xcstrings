@@ -1,0 +1,21 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@" : {
+
+    },
+    "$" : {
+
+    },
+    "Submission closed" : {
+
+    },
+    "Submissions close in few hours" : {
+
+    },
+    "You will be notified soon" : {
+
+    }
+  },
+  "version" : "1.0"
+}

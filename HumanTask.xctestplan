@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "ACA28F62-E08B-4987-A991-F2B1F6A609C5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HumanTask.xcodeproj",
+      "identifier" : "EE4E703B2C6A0E1D007D820C",
+      "name" : "HumanTask"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HumanTask.xcodeproj",
+        "identifier" : "EE4E70512C6A0E1E007D820C",
+        "name" : "HumanTaskTests"
+      }
+    }
+  ],
+  "version" : 1
+}
